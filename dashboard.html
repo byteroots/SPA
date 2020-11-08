@@ -6,6 +6,7 @@
 
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link href="assets/favicon.ico" rel="icon">
 
     <title>web POS</title>
 
@@ -18,7 +19,7 @@
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 
-    <link href="assets/icons/favicon.ico" rel="icon">
+
     <style type="text/css">/* Chart.js */
     @keyframes chartjs-render-animation {
         from {
@@ -60,7 +61,26 @@
         position: absolute;
         top: 0
         width: 200%;
-    }</style>
+    }
+
+    .nav-link:hover {
+        animation-name: gradients;
+        animation-iteration-count: 1;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes gradients {
+        100% {
+            -moz-box-shadow: -9px -4px 5px #000000;
+            -webkit-box-shadow: -9px -4px 5px #000000;
+            box-shadow: -9px -4px 5px #000000;
+            transform: translateX(1%);
+            font-size: large;
+        }
+    }
+
+    </style>
 </head>
 
 <body class="sidebar-mini sidebar-collapse" style="height: auto;">
@@ -86,14 +106,13 @@
                          with font-awesome or any other icon font library -->
 
                     <li class="nav-item has-treeview menu-open">
-                        <a class="nav-link active" href="index.html">
-                            <i class="nav-icon fas fa-tachometer-alt"></i>
-                            <p>
-                                Dashboard
-                                <i class="right fas fa-angle-left"></i>
-                            </p>
-                        </a>
                         <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="index.html">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Dashboard</p>
+                                </a>
+                            </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="index.html">
                                     <i class="far fa-circle nav-icon"></i>
@@ -101,13 +120,13 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="https://adminlte.io/themes/dev/AdminLTE/index2.html">
+                                <a class="nav-link" href="index.html">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Items</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="https://adminlte.io/themes/dev/AdminLTE/index3.html">
+                                <a class="nav-link" href="index.html">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Place Order</p>
                                 </a>
