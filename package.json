@@ -1,10 +1,10 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Sathimantha Malalasekera",
   "license": "MIT. See LICENSE.md on root",
   "readme": "See README.md on root",
   "dependencies": {
-    "bootstrap": "^4.5.3",
+    "admin-lte": "^3.0.5",
     "browser-sync": "^2.26.13"
   }
 }

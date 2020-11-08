@@ -11,11 +11,11 @@
     <title>web POS</title>
 
     <!-- Font Awesome Icons -->
-    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- IonIcons -->
-    <link href="assets/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/admin-lte/plugins/fontawesome-free/css/all.min.css">
     <!-- Theme style -->
-    <link href="assets/css/adminlte.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/admin-lte/dist/css/adminlte.min.css">
+    <!-- overlayScrollbars -->
+    <link rel="stylesheet" href="node_modules/admin-lte/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 
@@ -66,7 +66,7 @@
     .nav-link:hover {
         animation-name: gradients;
         animation-iteration-count: 1;
-        animation-duration: 0.5s;
+        animation-duration: 0.25s;
         animation-fill-mode: forwards;
     }
 
@@ -109,26 +109,32 @@
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
                                 <a class="nav-link active" href="index.html">
-                                    <i class="far fa-circle nav-icon"></i>
+                                    <i class="nav-icon fas fa-tachometer-alt"></i>
                                     <p>Dashboard</p>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="index.html">
-                                    <i class="far fa-circle nav-icon"></i>
+                                    <i class="nav-icon fas fa-users"></i>
                                     <p>Customers</p>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="index.html">
-                                    <i class="far fa-circle nav-icon"></i>
+                                    <i class="nav-icon fas fa-list-ol"></i>
                                     <p>Items</p>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="index.html">
-                                    <i class="far fa-circle nav-icon"></i>
+                                    <i class="nav-icon fas fa-cart-plus"></i>
                                     <p>Place Order</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">
+                                    <i class="nav-icon fas fa-search"></i>
+                                    <p>Search Order</p>
                                 </a>
                             </li>
                         </ul>
@@ -148,7 +154,7 @@
             <div class="container-fluid">
                 <div class="row mb-2">
                     <div class="col-sm-6">
-                        <h1 class="m-0 text-dark">Dashboard</h1><!-- Page heading-->
+                        <h1 class="m-0 text-dark" style="text-align: center">Dashboard</h1><!-- Page heading-->
                     </div><!-- /.col -->
                 </div><!-- /.row -->
             </div><!-- /.container-fluid -->
