@@ -79,7 +79,10 @@
             font-size: large;
         }
     }
-
+.info-box-content{
+    font-weight: bold;
+    -webkit-text-fill-color: grey;
+}
     </style>
 </head>
 
@@ -167,24 +170,94 @@
         </div>
         <div class="content">
             <div class="card text-white bg-dark mb-lg-n3">
-                <div class="card-header" style="text-align: center;font-weight: bold">Summary:</div>
+                <div class="card-header" style="text-align: center;font-weight: bold;font-size: large">Our summary:</div>
                 <div class="card-body">
-                    <table class="table table-bordered table-dark">
-                        <tbody>
-                        <tr>
-                            <td>Number of Customers</td>
-                            <td>22</td>
-                        </tr>
-                        <tr>
-                            <td>Number of Items</td>
-                            <td>23</td>
-                        </tr>
-                        <tr>
-                            <td>Number of Orders so far</td>
-                            <td>35</td>
-                        </tr>
-                        </tbody>
-                    </table>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <div class="info-box">
+                                <span class="info-box-icon bg-success"><i class="fas fa-users" ></i></span>
+                                <div class="info-box-content" >
+                                    <span class="info-box-text" >Customers registered:</span>
+                                    <span class="info-box-number">35</span>
+                                </div>
+                                <!-- /.info-box-content -->
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="info-box">
+                                <span class="info-box-icon bg-info"><i class="fas fa-box" ></i></span>
+                                <div class="info-box-content" >
+                                    <span class="info-box-text" >Items available:</span>
+                                    <span class="info-box-number">33</span>
+                                </div>
+                                <!-- /.info-box-content -->
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="info-box">
+                                <span class="info-box-icon bg-warning"><i class="fas fa-shopping-cart" ></i></span>
+                                <div class="info-box-content" >
+                                    <span class="info-box-text" >Orders served:</span>
+                                    <span class="info-box-number">57</span>
+                                </div>
+                                <!-- /.info-box-content -->
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="card card-widget widget-user-2">
+                                <!-- Add the bg color to the header using any of the bg-* classes -->
+                                <div class="widget-user-header bg-gradient-orange">
+                                    <div class="widget-user-image">
+                                        <img class="img-circle elevation-2" src="assets/charith-shalitha1.jpg" alt="User Avatar">
+                                    </div>
+                                    <!-- /.widget-user-image -->
+                                    <h3 class="widget-user-username">Charith Shalitha</h3>
+                                    <h5 class="widget-user-desc">Top Customer</h5>
+                                </div>
+                                <div class="card-footer p-0">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">
+                                                Number of orders : <span class="float-right badge bg-primary">8</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">
+                                                Total revenue : <span class="float-right badge bg-gradient-success">Rs. 12,345.00</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="card card-widget widget-user-2">
+                                <!-- Add the bg color to the header using any of the bg-* classes -->
+                                <div class="widget-user-header bg-info">
+                                    <div class="widget-user-image">
+                                        <img class="img-circle elevation-2" src="assets/facemask.png" alt="User Avatar">
+                                    </div>
+                                    <!-- /.widget-user-image -->
+                                    <h3 class="widget-user-username">Surgical face mask</h3>
+                                    <h5 class="widget-user-desc">Best selling item</h5>
+                                </div>
+                                <div class="card-footer p-0">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">
+                                                Quantity sold : <span class="float-right badge bg-primary">482</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">
+                                                Total profit : <span class="float-right badge bg-gradient-success">Rs. 23,370.00</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>
