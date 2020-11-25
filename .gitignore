@@ -1,9 +1,4 @@
 /.idea
 /node_modules
 *iml
-customers.html
-dashboard.html
-items.html
-orders.html
-searchOrders.html
 package-lock.json
